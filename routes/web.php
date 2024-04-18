@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return redirect('/upload');
 });
-Route::get('/upload', [GamesController::class, 'new']);
-Route::post('/upload', [GamesController::class, 'create']);
+Route::get('/upload', [GamesController::class, 'create']);
+Route::post('/upload', [GamesController::class, 'store']);
 Route::get('/validate', [GamesController::class, 'view_games']);
 Route::post('/validate', [GamesController::class, 'validate_games']);
