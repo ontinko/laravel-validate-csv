@@ -14,7 +14,7 @@ class ValidateGamesRequest extends FormRequest
 
     public function rules(): array
     {
-        // all the validation is happening in the custom function, so no defualt rules
+        // all the validation is happening in the custom function, so no default rules
         return [];
     }
 

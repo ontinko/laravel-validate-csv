@@ -26,7 +26,7 @@ class GamesController extends Controller
         return redirect('/validate');
     }
 
-    // if the logic were more complex, I would probably move the code in this controller to a separate class/function
+    // if the logic were more complex, I would probably move the code from this controller to a separate class/function
     // I decided to keep it all in the controller since the logic is pretty simple
     public function view_games(): View
     {

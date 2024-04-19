@@ -12,7 +12,7 @@ services:
         working_dir: /var/www
         volumes:
             - ./:/var/www
-              # overriding default php.ini to allow for form submissions
+              # overriding default php.ini to allow for large form submissions
             - ./docker-compose/php/php.ini:/usr/local/etc/php/conf.d/php-ini-overrides.ini
         networks:
             - games
