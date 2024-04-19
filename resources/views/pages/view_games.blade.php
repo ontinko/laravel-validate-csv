@@ -47,6 +47,7 @@
         <form action="/validate" method="post" enctype="application/x-www-form-urlencoded">
             @csrf
             <div>
+                <a href="/upload">Back to upload page</a>
                 <h3>Games</h3>
                 <div>
                     <button type="submit">Validate</button>
